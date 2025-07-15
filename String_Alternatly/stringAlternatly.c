@@ -13,7 +13,7 @@ char* mergeAlternately(const char* word1, const char* word2) {
     int len1 = strlen(word1);
     int len2 = strlen(word2);
     int maxLen = len1 > len2 ? len1 : len2;
-    char* merged = malloc(len1 + len2 + 1); // +1 para el null-terminator
+    char* merged = malloc(len1 + len2 + 1); 
 
     int k = 0;
     for (int i = 0; i < maxLen; i++) {
